@@ -17,6 +17,12 @@
   </head>
   <body>
     <header>
+      
+      <input type="checkbox" id="menu-checkbox" >
+      <label for="menu-checkbox" class="hamburger_icon">
+        <i class="fas fa-bars"></i>
+      </label>
+
       <a href="index.html">
         <img class="logo" src="images/csm-logo.png" alt="csm-logo" />
       </a>
@@ -24,45 +30,56 @@
       <nav>
         <ul>
           <li class="dropdown">
-            <button class="dropbtn">
-              Explore
-              <i class="fa fa-caret-down"></i>
-            </button>
+            <a href="explore.html">
+              <div class="dropbtn">
+                Explore
+                <i class="fa fa-caret-down"></i>
+              </div>
+            </a>
             <div class="dropdown-links">
-              <a href="#">Kids</a>
-              <a href="#">Teachers</a>
-              <a href="#">Researchers</a>
+              <a id="#">Kids</a>
+              <a id="#">Teachers</a>
+              <a id="#">Researchers</a>
             </div>
           </li>
           <li class="dropdown">
-            <button class="dropbtn">
-              Exhibitions
-              <i class="fa fa-caret-down"></i>
-            </button>
+            <a href="exhibitions.html">
+              <div class="dropbtn">
+                Exhibitions
+                <i class="fa fa-caret-down"></i>
+              </div>
+            </a>
             <div class="dropdown-links">
-              <a href="#">Cosmology</a>
-              <a href="#">Evolution</a>
-              <a href="#">Biology and Medicine</a>
-              <a href="#">Robotics and AI</a>
-              <a href="#">Ecology</a>
+              <a id="cosmology-section">Cosmology</a>
+              <a id="evolution-section">Evolution</a>
+              <a id="bio-med-section">Biology and Medicine</a>
+              <a id="robo-ai-section">Robotics and AI</a>
+              <a id="ecology-section">Ecology</a>
             </div>
-          </li>
-          <li>
-            <a href="news.html">News</a>
           </li>
           <li class="dropdown">
-            <button class="dropbtn">
-              Get Involved
-              <i class="fa fa-caret-down"></i>
-            </button>
+            <a href="news.html">
+              <div class="dropbtn">News</div>
+            </a>
+          </li>
+          <li class="dropdown">
+            <a href="getinvolved.html">
+              <div class="dropbtn">
+                Get Involved
+                <i class="fa fa-caret-down"></i>
+              </div>
+            </a>
             <div class="dropdown-links">
-              <a href="#">Support</a>
-              <a href="#">Volunteer</a>
-              <a href="#">Internships</a>
+              <a id="#">Support</a>
+              <a id="#">Volunteer</a>
+              <a id="#">Internships</a>
             </div>
           </li>
-          <li>
-            <a href="about.html">About</a>
+
+          <li class="dropdown">
+            <a href="about.html">
+              <div class="dropbtn">About</div>
+            </a>
           </li>
         </ul>
       </nav>
@@ -70,7 +87,7 @@
       <form role="search">
         <label for="searchbar"></label>
         <input
-          class="searchbar"
+          class= "input-style searchbar"
           id="searchbar"
           type="text"
           placeholder="Search"
@@ -80,6 +97,75 @@
 
     <main></main>
 
-    <footer></footer>
+    <footer>
+      <div class="footer-container">
+        <img
+          class="logo-2"
+          src="images/Microscope-Logo.png"
+          alt="microscope"
+        />
+        <form class="newsletter">
+          <fieldset>
+            <legend class="bold">SIGN UP FOR FREE NEWSLETTER</legend>
+            <div>
+              <input type="checkbox" id="privacy-statment" />
+              <label class="newsletter-text" for="privacy-statment"
+                >I have read
+                <a class="newsletter-link" href="privacy.html"
+                  >CSM's privacy statement
+                </a>
+                and accept that CSM handles my data as described in the
+                <a class="newsletter-link" href="termscondition.html"
+                  >terms and conditions.</a
+                >
+              </label>
+            </div>
+            <input
+              class="input-style email-input"
+              type="email"
+              id="email-newsletter"
+              placeholder="E-Mail"
+            />
+            <label for="email-newsletter"></label>
+            <input class="input-style" type="submit" value="Send" />
+          </fieldset>
+        </form>
+
+        <section class="openinghours">
+          <p class="text-footer">OPENING HOURS</p>
+          <ul class="days">
+            <li>Monday</li>
+            <li>Tuesday</li>
+            <li>Wednesday</li>
+            <li>Thursday</li>
+            <li>Friday</li>
+            <li>Saturday</li>
+            <li>Sunday</li>
+          </ul>
+          <ul class="hours">
+            <li>Closed</li>
+            <li>10:00-16:00</li>
+            <li>10:00-16:00</li>
+            <li>10:00-16:00</li>
+            <li>10:00-19:00</li>
+            <li>09:00-16:00</li>
+            <li>09:00-13:00</li>
+          </ul>
+        </section>
+
+        <section class="contact-footer">
+          <p class="text-footer text-contact-footer">CONTACT</p>
+          <ul class="contact-list">
+            <li class="bold">Address</li>
+            <li>Peter Egges plass 1 7011 Trondheim</li>
+            <li class="bold">Phone</li>
+            <li>+47 12 34 56 78</li>
+            <li class="bold">E-Mail</li>
+            <li>example@csm.no</li>
+          </ul>
+        </section>
+
+      </div>
+    </footer>
   </body>
 </html>
