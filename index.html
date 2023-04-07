@@ -15,95 +15,102 @@
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <title>Home | Community Science Museum</title>
   </head>
+
   <body>
     <header>
-      
-      <input type="checkbox" id="menu-checkbox" >
-      <label for="menu-checkbox" class="hamburger_icon">
-        <i class="fas fa-bars"></i>
-      </label>
+      <div class="header-container">
+        <input type="checkbox" id="menu-checkbox" />
+        <label for="menu-checkbox" class="hamburger_icon">
+          <i class="fas fa-bars"></i>
+        </label>
 
-      <a href="index.html">
-        <img class="logo" src="images/csm-logo.png" alt="csm-logo" />
-      </a>
+        <a class="logo" href="index.html">
+          <img class="logo" src="images/csm-logo.png" alt="csm-logo" />
+        </a>
 
-      <nav>
-        <ul>
-          <li class="dropdown">
-            <a href="explore.html">
-              <div class="dropbtn">
-                Explore
-                <i class="fa fa-caret-down"></i>
+        <nav>
+          <ul>
+            <li class="dropdown">
+              <a href="explore.html">
+                <div class="dropbtn">
+                  Explore
+                  <i class="fa fa-caret-down"></i>
+                </div>
+              </a>
+              <div class="dropdown-links">
+                <a id="#">Kids</a>
+                <a id="#">Teachers</a>
+                <a id="#">Researchers</a>
               </div>
-            </a>
-            <div class="dropdown-links">
-              <a id="#">Kids</a>
-              <a id="#">Teachers</a>
-              <a id="#">Researchers</a>
-            </div>
-          </li>
-          <li class="dropdown">
-            <a href="exhibitions.html">
-              <div class="dropbtn">
-                Exhibitions
-                <i class="fa fa-caret-down"></i>
+            </li>
+            <li class="dropdown">
+              <a href="exhibitions.html">
+                <div class="dropbtn">
+                  Exhibitions
+                  <i class="fa fa-caret-down"></i>
+                </div>
+              </a>
+              <div class="dropdown-links">
+                <a id="cosmology-section">Cosmology</a>
+                <a id="evolution-section">Evolution</a>
+                <a id="bio-med-section">Biology and Medicine</a>
+                <a id="robo-ai-section">Robotics and AI</a>
+                <a id="ecology-section">Ecology</a>
               </div>
-            </a>
-            <div class="dropdown-links">
-              <a id="cosmology-section">Cosmology</a>
-              <a id="evolution-section">Evolution</a>
-              <a id="bio-med-section">Biology and Medicine</a>
-              <a id="robo-ai-section">Robotics and AI</a>
-              <a id="ecology-section">Ecology</a>
-            </div>
-          </li>
-          <li class="dropdown">
-            <a href="news.html">
-              <div class="dropbtn">News</div>
-            </a>
-          </li>
-          <li class="dropdown">
-            <a href="getinvolved.html">
-              <div class="dropbtn">
-                Get Involved
-                <i class="fa fa-caret-down"></i>
+            </li>
+            <li class="dropdown">
+              <a href="news.html">
+                <div class="dropbtn">News</div>
+              </a>
+            </li>
+            <li class="dropdown">
+              <a href="getinvolved.html">
+                <div class="dropbtn">
+                  Get Involved
+                  <i class="fa fa-caret-down"></i>
+                </div>
+              </a>
+              <div class="dropdown-links">
+                <a id="#">Support</a>
+                <a id="#">Volunteer</a>
+                <a id="#">Internships</a>
               </div>
-            </a>
-            <div class="dropdown-links">
-              <a id="#">Support</a>
-              <a id="#">Volunteer</a>
-              <a id="#">Internships</a>
-            </div>
-          </li>
+            </li>
 
-          <li class="dropdown">
-            <a href="about.html">
-              <div class="dropbtn">About</div>
-            </a>
-          </li>
-        </ul>
-      </nav>
+            <li class="dropdown">
+              <a href="about.html">
+                <div class="dropbtn">About</div>
+              </a>
+            </li>
+          </ul>
+        </nav>
 
-      <form role="search">
-        <label for="searchbar"></label>
-        <input
-          class= "input-style searchbar"
-          id="searchbar"
-          type="text"
-          placeholder="Search"
-        />
-      </form>
+        <form role="search">
+          <label for="searchbar"></label>
+          <input
+            class="input-style searchbar"
+            id="searchbar"
+            type="text"
+            placeholder="Search"
+          />
+        </form>
+      </div>
     </header>
 
-    <main></main>
+    <main class="main-homepage">
+      <div class="top-main-homepage">
+        <img
+          class="homepage-img"
+          src="images/homepage-background.jpg"
+          alt="inside the museum"
+        />
+        <h1 class="homepage-h1">Welcome to CSM!</h1>
+      </div>
+    </main>
 
     <footer>
       <div class="footer-container">
-        <img
-          class="logo-2"
-          src="images/Microscope-Logo.png"
-          alt="microscope"
-        />
+        <img class="logo-2" src="images/Microscope-Logo.png" alt="microscope" />
         <form class="newsletter">
           <fieldset>
             <legend class="bold">SIGN UP FOR FREE NEWSLETTER</legend>
@@ -164,7 +171,6 @@
             <li>example@csm.no</li>
           </ul>
         </section>
-
       </div>
     </footer>
   </body>
