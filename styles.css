@@ -212,8 +212,13 @@ fieldset {
   flex-direction:column
 }
 
-.email-input{
+.email-input::placeholder {
   text-align: center;
+  color: black;
+}
+
+input[type=submit]{
+color: black;
 }
 
 .bold {
@@ -335,7 +340,8 @@ nav li {
 
 .articles-container {
 flex-direction: column;
-margin-top: 50px;
+padding: 20px;
+margin-top: 30px;
 align-items: center;
 }
 
