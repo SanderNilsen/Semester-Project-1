@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Homepage for Community Science Museum where we’re committed to making science accessible to all."
+      content="Newsite with the latest update from Community Science Museum"
     />
     <script
       src="https://kit.fontawesome.com/d7dfb4eee1.js"
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" type="text/css" href="styles.css" />
-    <title>Home | Community Science Museum</title>
+    <title>News | Community Science Museum</title>
   </head>
 
   <body>
@@ -98,95 +98,74 @@
     </header>
 
     <main>
-      <div class="top-main-homepage">
-        <img
-          class="homepage-img"
-          src="images/homepage-background.jpg"
-          alt="inside the museum"
-        />
-        <h1 class="homepage-h1">Welcome to CSM!</h1>
-      </div>
-
+      <h1 class="heading-style">NEWS</h1>
       <section class="articles-container">
-        <article>
-          <img src="images/explore.jpg" />
-          <div class="text-box">
-            <h2>Explore</h2>
-            <p>
-              The aim of our museum is to create a space where everyone can
-              experience the wonders of our discoveries and perhaps even ignite
-              a lifelong passion to continue the exploration of the world around
-              us.
-            </p>
-            <a href="explore.html"
-              >View More <i class="fa fa-chevron-right"></i>
-            </a>
-          </div>
-        </article>
-
-        <article>
-          <img src="images/exhibitions.png" />
-          <div class="text-box">
-            <h2>Exhibitions</h2>
-            <p>
-              We believe science should not be confined to the textbook, but
-              brought to live through exhibits. This is why we have over 1000
-              different exhibits on the many varied subjects of science to
-              explore.
-            </p>
-            <a href="exhibitions.html"
-              >View More <i class="fa fa-chevron-right"></i>
-            </a>
-          </div>
-        </article>
-      </section>
-
-      <section class="articles-container">
-        <article class="small-article">
-          <img src="images/news.png" />
-          <div class="text-box text-box-small">
-            <h3>News</h3>
-            <p>
-              Visiting Professor of Aeronautics It is our pleasure to announce
-              that Prof Sheila Widnall from the Massachusetts Institute of
-              Technology will be delivering 3 lectures on the development of
-              aeronautics and where the future lies in this exciting ‘space’.
-            </p>
-            <a href="news.html"
-              >View More <i class="fa fa-chevron-right"></i>
-            </a>
-          </div>
-        </article>
-
-        <article class="small-article">
-          <img src="images/shop.png" />
-          <div class="text-box text-box-small">
-            <h3>Shop</h3>
-            <p>
-              Our shop offers a range of memorabilia from the museum as well as
-              great gifts and activity packs that allow you to continue to
-              explore science even after you’ve left the museum.
-            </p>
-            <a href="about.html"
-              >View More <i class="fa fa-chevron-right"></i>
-            </a>
-          </div>
-        </article>
-
-        <article class="small-article">
-          <img src="images/visit-us.png" />
-          <div class="text-box text-box-small">
-            <h3>Visit Us</h3>
-            <p>
-              The entrance is free for all. There are guided tours of the museum
-              that leave every hour. These tours are 70 NOK per person and
-              include a handy printed guide of the museum.
-            </p>
-            <a href="about.html"
-              >View More <i class="fa fa-chevron-right"></i>
-            </a>
-          </div>
-        </article>
+        <div class="left-wrapper">
+          <article>
+            <img src="images/news-visiting-professor.jpg" />
+            <div class="text-box-gray text-box">
+              <h2>Visiting Professor of Aeronautics</h2>
+              <p>
+                It is our pleasure to announce that Prof Sheila Widnall from the
+                Massachusetts Institute of Technology will be delivering 3
+                lectures on the development of aeronautics and where the future
+                lies in this exciting ‘space’.
+              </p>
+              <a href="exhibitions.html"
+                >Read More <i class="fa fa-chevron-right"></i>
+              </a>
+            </div>
+          </article>
+          <article>
+            <img src="images/news-energetica.jpg" />
+            <div class="text-box-gray text-box">
+              <h2>Energetica Exhibition on Loan</h2>
+              <p>
+                On loan from the NEMO Science Museum in Amsterdam, the
+                Energetica exhibition is coming to the Community Science Museum.
+                It’s a series of installations that allow visitors to experience
+                the power of the elements as we harness them. From solar energy
+                powering lighting, to ‘Wind Island’ that shows how turbines are
+                able to use and control wind to create power.
+              </p>
+              <a href="exhibitions.html"
+                >Read More <i class="fa fa-chevron-right"></i>
+              </a>
+            </div>
+          </article>
+        </div>
+        <div class="right-wrapper">
+          <article>
+            <img src="images/news-night-in-museum.jpg" />
+            <div class="text-box-gray text-box">
+              <h2>Night in the Museum</h2>
+              <p>
+                Get your family together for an exciting night in the museum as
+                you sleep over beside dinosaurs and science displays. Bring your
+                own sleeping bag and get ready to rough it as we go exploring
+                the wonders of science.
+              </p>
+              <a href="exhibitions.html"
+                >Read More <i class="fa fa-chevron-right"></i>
+              </a>
+            </div>
+          </article>
+          <article>
+            <img src="images/news-tips.jpg" />
+            <div class="text-box-gray text-box">
+              <h2>Tips Us</h2>
+              <p>
+                Is there something we should investigate further? Do you have
+                pictures or videos more people should see? We review all tips we
+                receive, and accept both video, photos and text as
+                documentation.
+              </p>
+              <a href="#contact"
+                >Contact us <i class="fa fa-chevron-right"></i>
+              </a>
+            </div>
+          </article>
+        </div>
       </section>
     </main>
 
@@ -242,7 +221,7 @@
           </ul>
         </section>
 
-        <section class="contact-footer">
+        <section id="contact" class="contact-footer">
           <p class="text-footer text-contact-footer">CONTACT</p>
           <ul class="contact-list">
             <li class="bold"><i class="fa fa-location-dot"></i> Address</li>

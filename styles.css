@@ -163,6 +163,8 @@ article {
   max-width: 443px;
 }
 
+
+
 .text-box {
   background-color: #333533;
   color: #ffff;
@@ -170,7 +172,9 @@ article {
   line-height: 1.4;
   margin-top: -5px;
 }
-
+.text-box-gray{
+  background-color: #929292;
+}
 .text-box-small{
   background-color: #929292 ;
 }
