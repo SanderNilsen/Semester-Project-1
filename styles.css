@@ -169,6 +169,8 @@ article {
   padding: 20px;
   line-height: 1.4;
   margin-top: -5px;
+  gap: 15px;
+  display: grid;
 }
 
 .text-box-gray{
