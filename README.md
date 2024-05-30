@@ -48,4 +48,4 @@ npm run start
 
 ## Live Website
 
-jovial-frangipane-060223.netlify.app
+[Community Science Museum](https://jovial-frangipane-060223.netlify.app/)
