@@ -15,8 +15,6 @@ The purpose of this project is to:
 
 ## Built With
 
-You can list a the tech stack that you've used over here
-
 - [HTML](https://html.com/)
 - [CSS](https://web.dev/learn/css)
 
